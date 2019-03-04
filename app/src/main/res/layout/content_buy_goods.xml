@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.m6.views.BuyGoodsActivity"
+    tools:showIn="@layout/activity_buy_goods">
+
+    <TextView
+        android:id="@+id/buy_price_games"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="36dp"
+        android:text="$$$$"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_price_ore" />
+
+    <TextView
+        android:id="@+id/buy_price_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="36dp"
+        android:text="$$$$$"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_price_furs" />
+
+    <TextView
+        android:id="@+id/buy_price_medicine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="36dp"
+        android:text="$$$$$"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_price_firearms" />
+
+    <TextView
+        android:id="@+id/buy_price_machine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="36dp"
+        android:text="$$$$$"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_price_medicine" />
+
+    <TextView
+        android:id="@+id/buy_price_robots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="36dp"
+        android:text="$$$$$"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_price_narcortics" />
+
+    <TextView
+        android:id="@+id/buy_price_ore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="36dp"
+        android:text="$$$$$"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_price_food" />
+
+    <TextView
+        android:id="@+id/buy_price_firearms"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="36dp"
+        android:text="$$$$$"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_price_games" />
+
+    <TextView
+        android:id="@+id/buy_price_water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="36dp"
+        android:text="$$$$$"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/buy_price_furs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="36dp"
+        android:text="$$$$$"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_price_water" />
+
+    <TextView
+        android:id="@+id/buy_price_narcortics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="36dp"
+        android:text="$$$$$"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_price_machine" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Narcortics"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/buy_num_narcotics"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="Robots"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/buy_num_robot"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Medicine"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/buy_num_medicine"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Machines"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/buy_num_machine"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:text="BUY CARGO"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="53dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Water"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/buy_num_water"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Furs"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/buy_num_furs"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Food"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/buy_num_food"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="Ore"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/buy_num_ore"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Games"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/buy_num_game"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Firearms"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/buy_num_firearms"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="40dp"
+        android:text="Cash:"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buy_credit" />
+
+    <TextView
+        android:id="@+id/buy_credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="40dp"
+        android:inputType="number"
+        android:text="Credit"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="40dp"
+        android:text="Bays:"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/buy_bays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="40dp"
+        android:text="0/15"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView38" />
+
+    <Button
+        android:id="@+id/buy_num_food"
+        android:layout_width="44dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_num_furs" />
+
+    <Button
+        android:id="@+id/buy_num_ore"
+        android:layout_width="44dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_num_food" />
+
+    <Button
+        android:id="@+id/buy_num_game"
+        android:layout_width="44dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_num_ore" />
+
+    <Button
+        android:id="@+id/buy_num_machine"
+        android:layout_width="44dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_num_medicine" />
+
+    <Button
+        android:id="@+id/buy_num_firearms"
+        android:layout_width="44dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_num_game" />
+
+    <Button
+        android:id="@+id/buy_num_narcotics"
+        android:layout_width="44dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_num_machine" />
+
+    <Button
+        android:id="@+id/buy_num_robot"
+        android:layout_width="44dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_num_narcotics" />
+
+    <Button
+        android:id="@+id/buy_num_medicine"
+        android:layout_width="44dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_num_firearms" />
+
+    <Button
+        android:id="@+id/buy_num_water"
+        android:layout_width="44dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <Button
+        android:id="@+id/buy_num_furs"
+        android:layout_width="44dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buy_num_water" />
+
+    <Button
+        android:id="@+id/buy_max_furs"
+        android:layout_width="57dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="60dp"
+        android:text="MAX"
+        app:layout_constraintEnd_toStartOf="@+id/buy_price_furs"
+        app:layout_constraintTop_toBottomOf="@+id/buy_max_water" />
+
+    <Button
+        android:id="@+id/buy_max_ore"
+        android:layout_width="56dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="72dp"
+        android:text="MAX"
+        app:layout_constraintEnd_toStartOf="@+id/buy_price_ore"
+        app:layout_constraintTop_toBottomOf="@+id/buy_max_food" />
+
+    <Button
+        android:id="@+id/buy_max_games"
+        android:layout_width="56dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="72dp"
+        android:text="MAX"
+        app:layout_constraintEnd_toStartOf="@+id/buy_price_games"
+        app:layout_constraintTop_toBottomOf="@+id/buy_max_ore" />
+
+    <Button
+        android:id="@+id/buy_max_firearms"
+        android:layout_width="56dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="72dp"
+        android:text="MAX"
+        app:layout_constraintEnd_toStartOf="@+id/buy_price_firearms"
+        app:layout_constraintTop_toBottomOf="@+id/buy_max_games" />
+
+    <Button
+        android:id="@+id/buy_max_medicine"
+        android:layout_width="56dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="72dp"
+        android:text="MAX"
+        app:layout_constraintEnd_toStartOf="@+id/buy_price_medicine"
+        app:layout_constraintTop_toBottomOf="@+id/buy_max_firearms" />
+
+    <Button
+        android:id="@+id/buy_max_machine"
+        android:layout_width="56dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="72dp"
+        android:text="MAX"
+        app:layout_constraintEnd_toStartOf="@+id/buy_price_machine"
+        app:layout_constraintTop_toBottomOf="@+id/buy_max_medicine" />
+
+    <Button
+        android:id="@+id/buy_max_narcortics"
+        android:layout_width="56dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="72dp"
+        android:text="MAX"
+        app:layout_constraintEnd_toStartOf="@+id/buy_price_narcortics"
+        app:layout_constraintTop_toBottomOf="@+id/buy_max_machine" />
+
+    <Button
+        android:id="@+id/buy_max_robots"
+        android:layout_width="56dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="72dp"
+        android:text="MAX"
+        app:layout_constraintEnd_toStartOf="@+id/buy_price_robots"
+        app:layout_constraintTop_toBottomOf="@+id/buy_max_narcortics" />
+
+    <Button
+        android:id="@+id/buy_max_food"
+        android:layout_width="56dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="60dp"
+        android:text="MAX"
+        app:layout_constraintEnd_toStartOf="@+id/buy_price_food"
+        app:layout_constraintTop_toBottomOf="@+id/buy_max_furs" />
+
+    <Button
+        android:id="@+id/buy_max_water"
+        android:layout_width="56dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="72dp"
+        android:text="MAX"
+        app:layout_constraintEnd_toStartOf="@+id/buy_price_water"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <Button
+        android:id="@+id/buy_menu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:text="MENU"
+        app:layout_constraintBottom_toBottomOf="@+id/textView36"
+        app:layout_constraintEnd_toStartOf="@+id/textView36"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+</android.support.constraint.ConstraintLayout>

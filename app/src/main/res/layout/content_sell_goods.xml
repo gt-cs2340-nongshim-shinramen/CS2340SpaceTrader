@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/sell_num_water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sell_num_furs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sell_num_water" />
+
+    <Button
+        android:id="@+id/sell_num_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sell_num_furs" />
+
+    <Button
+        android:id="@+id/sell_num_ore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sell_num_food" />
+
+    <Button
+        android:id="@+id/sell_num_games"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sell_num_ore" />
+
+    <Button
+        android:id="@+id/sell_num_firearms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sell_num_games" />
+
+    <Button
+        android:id="@+id/sell_num_medicine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sell_num_firearms" />
+
+    <Button
+        android:id="@+id/sell_num_machines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sell_num_medicine" />
+
+    <Button
+        android:id="@+id/sell_num_narcotics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sell_num_machines" />
+
+    <Button
+        android:id="@+id/sell_num_robots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sell_num_narcotics" />
+
+    <Button
+        android:id="@+id/sell_all_water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="4dp"
+        android:text="All"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_water"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sell_all_furs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:text="All"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_furs"
+        app:layout_constraintTop_toBottomOf="@+id/sell_all_water" />
+
+    <Button
+        android:id="@+id/sell_all_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:text="All"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_food"
+        app:layout_constraintTop_toBottomOf="@+id/sell_all_furs" />
+
+    <Button
+        android:id="@+id/sell_all_ore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:text="All"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_ore"
+        app:layout_constraintTop_toBottomOf="@+id/sell_all_food" />
+
+    <Button
+        android:id="@+id/sell_all_games"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:text="All"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_games"
+        app:layout_constraintTop_toBottomOf="@+id/sell_all_ore" />
+
+    <Button
+        android:id="@+id/sell_all_firearms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:text="All"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_firearms"
+        app:layout_constraintTop_toBottomOf="@+id/sell_all_games" />
+
+    <Button
+        android:id="@+id/sell_all_medicine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:text="All"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_medicine"
+        app:layout_constraintTop_toBottomOf="@+id/sell_all_firearms" />
+
+    <Button
+        android:id="@+id/sell_all_machines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:text="All"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_machines"
+        app:layout_constraintTop_toBottomOf="@+id/sell_all_medicine" />
+
+    <Button
+        android:id="@+id/dump_all_narcotics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:text="Dump"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_narcotics"
+        app:layout_constraintTop_toBottomOf="@+id/sell_all_machines" />
+
+    <Button
+        android:id="@+id/sell_all_robots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:text="All"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_robots"
+        app:layout_constraintTop_toBottomOf="@+id/dump_all_narcotics" />
+
+    <TextView
+        android:id="@+id/waterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:text="Water"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_water"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/furText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="29dp"
+        android:text="Furs"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_furs"
+        app:layout_constraintTop_toBottomOf="@+id/waterText" />
+
+    <TextView
+        android:id="@+id/foodText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="29dp"
+        android:text="Food"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_food"
+        app:layout_constraintTop_toBottomOf="@+id/furText" />
+
+    <TextView
+        android:id="@+id/oreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:text="Ore"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_ore"
+        app:layout_constraintTop_toBottomOf="@+id/foodText" />
+
+    <TextView
+        android:id="@+id/robotText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:text="Robots"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_robots"
+        app:layout_constraintTop_toBottomOf="@+id/narcoticText" />
+    <TextView
+        android:id="@+id/narcoticText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:text="Narcotics"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_narcotics"
+        app:layout_constraintTop_toBottomOf="@+id/machineText" />
+
+    <TextView
+        android:id="@+id/machineText"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:text="Machines"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_machines"
+        app:layout_constraintTop_toBottomOf="@+id/medicineText" />
+
+    <TextView
+        android:id="@+id/medicineText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:text="Medicine"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_medicine"
+        app:layout_constraintTop_toBottomOf="@+id/firearmText" />
+
+    <TextView
+        android:id="@+id/firearmText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:text="Firearms"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_firearms"
+        app:layout_constraintTop_toBottomOf="@+id/gameText" />
+
+    <TextView
+        android:id="@+id/gameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:text="Games"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_games"
+        app:layout_constraintTop_toBottomOf="@+id/oreText" />
+
+    <TextView
+        android:id="@+id/bayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="Bays:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sell_num_robots" />
+
+    <TextView
+        android:id="@+id/sell_bays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="0 / 15"
+        app:layout_constraintStart_toEndOf="@+id/bayText"
+        app:layout_constraintTop_toBottomOf="@+id/sell_num_robots" />
+
+    <TextView
+        android:id="@+id/cashText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="44dp"
+        android:text="Cash:"
+        app:layout_constraintStart_toEndOf="@+id/sell_bays"
+        app:layout_constraintTop_toBottomOf="@+id/sell_price_robots" />
+
+    <TextView
+        android:id="@+id/sell_price_water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="18dp"
+        android:text="$$$$"
+        app:layout_constraintStart_toEndOf="@+id/sell_all_water"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sell_price_furs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:text="$$$$"
+        app:layout_constraintStart_toEndOf="@+id/sell_all_furs"
+        app:layout_constraintTop_toBottomOf="@+id/sell_price_water" />
+
+    <TextView
+        android:id="@+id/sell_price_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:text="$$$$"
+        app:layout_constraintStart_toEndOf="@+id/sell_all_food"
+        app:layout_constraintTop_toBottomOf="@+id/sell_price_furs" />
+
+    <TextView
+        android:id="@+id/sell_price_ore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:text="$$$$"
+        app:layout_constraintStart_toEndOf="@+id/sell_all_ore"
+        app:layout_constraintTop_toBottomOf="@+id/sell_price_food" />
+
+    <TextView
+        android:id="@+id/sell_price_games"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:text="$$$$"
+        app:layout_constraintStart_toEndOf="@+id/sell_all_games"
+        app:layout_constraintTop_toBottomOf="@+id/sell_price_ore" />
+
+    <TextView
+        android:id="@+id/sell_price_firearms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:text="$$$$"
+        app:layout_constraintStart_toEndOf="@+id/sell_all_firearms"
+        app:layout_constraintTop_toBottomOf="@+id/sell_price_games" />
+
+    <TextView
+        android:id="@+id/sell_price_medicine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:text="$$$$"
+        app:layout_constraintStart_toEndOf="@+id/sell_all_medicine"
+        app:layout_constraintTop_toBottomOf="@+id/sell_price_firearms" />
+
+    <TextView
+        android:id="@+id/sell_price_machines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:text="$$$$"
+        app:layout_constraintStart_toEndOf="@+id/sell_all_machines"
+        app:layout_constraintTop_toBottomOf="@+id/sell_price_medicine" />
+
+    <TextView
+        android:id="@+id/sell_price_narcotics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:text="$$$$"
+        app:layout_constraintStart_toEndOf="@+id/dump_all_narcotics"
+        app:layout_constraintTop_toBottomOf="@+id/sell_price_machines" />
+
+    <TextView
+        android:id="@+id/sell_price_robots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:text="$$$$"
+        app:layout_constraintStart_toEndOf="@+id/sell_all_robots"
+        app:layout_constraintTop_toBottomOf="@+id/sell_price_narcotics" />
+
+    <TextView
+        android:id="@+id/sell_credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="44dp"
+        android:text="$$$$"
+        app:layout_constraintStart_toEndOf="@+id/cashText"
+        app:layout_constraintTop_toBottomOf="@+id/sell_price_robots" />
+
+    <Button
+        android:id="@+id/sell_menu_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="92dp"
+        android:text="MENU"
+        app:layout_constraintStart_toEndOf="@+id/sell_bays"
+        app:layout_constraintTop_toBottomOf="@+id/robotText" />
+
+</android.support.constraint.ConstraintLayout>
