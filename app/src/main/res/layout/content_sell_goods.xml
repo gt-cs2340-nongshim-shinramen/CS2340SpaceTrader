@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:layout_height="match_parent">
 
     <Button
         android:id="@+id/sell_num_water"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="68dp"
         android:text="0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -90,7 +91,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="132dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="68dp"
         android:text="All"
         app:layout_constraintStart_toEndOf="@+id/sell_num_water"
         app:layout_constraintTop_toTopOf="parent" />
@@ -181,7 +182,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="80dp"
         android:text="Water"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintStart_toEndOf="@+id/sell_num_water"
@@ -192,11 +193,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="29dp"
         android:text="Furs"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        app:layout_constraintStart_toEndOf="@+id/sell_num_furs"
-        app:layout_constraintTop_toBottomOf="@+id/waterText" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/sell_num_furs"
+        app:layout_constraintStart_toEndOf="@+id/sell_num_furs" />
 
     <TextView
         android:id="@+id/foodText"
@@ -230,6 +230,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintStart_toEndOf="@+id/sell_num_robots"
         app:layout_constraintTop_toBottomOf="@+id/narcoticText" />
+
     <TextView
         android:id="@+id/narcoticText"
         android:layout_width="wrap_content"
@@ -320,7 +321,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="80dp"
         android:text="$$$$"
         app:layout_constraintStart_toEndOf="@+id/sell_all_water"
         app:layout_constraintTop_toTopOf="parent" />
@@ -429,8 +430,8 @@
         android:id="@+id/sell_menu_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="44dp"
         android:text="MENU"
         app:layout_constraintStart_toEndOf="@+id/sell_bays"
         app:layout_constraintTop_toBottomOf="@+id/robotText" />
