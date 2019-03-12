@@ -340,7 +340,7 @@ public class BuyGoodsActivity extends AppCompatActivity implements BuyDialog.Buy
         narcorticsPrice.setText(price);
 
         robotPrice = findViewById(R.id.buy_price_robots);
-        if (IsAble(Goods.ROBOTS)){
+        if (IsAble(Goods.RO초BOTS)){
             robot = calculatePrice(Goods.ROBOTS);
             price = robot +" cr";
         } else {
