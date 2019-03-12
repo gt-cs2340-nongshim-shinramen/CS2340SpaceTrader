@@ -406,7 +406,7 @@
         android:layout_width="57dp"
         android:layout_height="34dp"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="6dp"
         android:text="MAX"
         app:layout_constraintStart_toEndOf="@+id/buy_num_furs"
         app:layout_constraintTop_toBottomOf="@+id/buy_max_water" />
@@ -416,7 +416,7 @@
         android:layout_width="56dp"
         android:layout_height="34dp"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="6dp"
         android:text="MAX"
         app:layout_constraintStart_toEndOf="@+id/buy_num_ore"
         app:layout_constraintTop_toBottomOf="@+id/buy_max_food" />
@@ -446,7 +446,7 @@
         android:layout_width="56dp"
         android:layout_height="34dp"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="6dp"
         android:text="MAX"
         app:layout_constraintStart_toEndOf="@+id/buy_num_medicine"
         app:layout_constraintTop_toBottomOf="@+id/buy_max_firearms" />
@@ -496,7 +496,7 @@
         android:layout_width="56dp"
         android:layout_height="34dp"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="22dp"
         android:text="MAX"
         app:layout_constraintStart_toEndOf="@+id/buy_num_water"
         app:layout_constraintTop_toBottomOf="@+id/textView13" />

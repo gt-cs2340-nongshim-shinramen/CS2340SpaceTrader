@@ -172,7 +172,7 @@
         android:layout_height="28dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="12dp"
-        android:textColor="@android:color/white"
+        android:textColor="#FFFFFF"
         android:backgroundTint="@color/yellow"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/engineer_point_text" />
