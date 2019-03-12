@@ -117,9 +117,9 @@ public class SellGoodsActivity extends AppCompatActivity implements SellDialog.S
                         credit.setText(String.valueOf(player.getCredit()) + " Cr");
                         setupInverntory();
 
-                        Toast.makeText(getApplicationContext(), "you sold " + max + " " + goods.toString(), Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "You sold " + max + " " + goods.toString(), Toast.LENGTH_LONG).show();
                     } else {
-                        Toast.makeText(getApplicationContext(), "you can not sell anymore. check your bay", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "You can not sell anymore. Check your bay.", Toast.LENGTH_LONG).show();
                     }
                 } else {
                     openAlert();
@@ -348,9 +348,9 @@ public class SellGoodsActivity extends AppCompatActivity implements SellDialog.S
             bay.setText(String.valueOf(player.getCargo()) + "/" + player.getSpaceship().getBay());
             credit.setText(String.valueOf(player.getCredit()) + " Cr");
             setupInverntory();
-            Toast.makeText(getApplicationContext(), "you sold " + inputStr + " " + goods, Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "You sold " + inputStr + " " + goods, Toast.LENGTH_LONG).show();
         } else {
-            Toast.makeText(getApplicationContext(), "you can not sell anymore. check your bay", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "You can not sell anymore. Check your bay.", Toast.LENGTH_LONG).show();
         }
     }
     public void openMenu() {

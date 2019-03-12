@@ -133,9 +133,9 @@ public class BuyGoodsActivity extends AppCompatActivity implements BuyDialog.Buy
                         player.setCredit(player.getCredit() - max * price);
                         bay.setText(String.valueOf(player.getCargo()) + "/" + player.getSpaceship().getBay());
                         credit.setText(String.valueOf(player.getCredit()) + " Cr");
-                        Toast.makeText(getApplicationContext(), "you bought " + max + " " + goods.toString(), Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "You bought " + max + " " + goods.toString(), Toast.LENGTH_LONG).show();
                     } else {
-                        Toast.makeText(getApplicationContext(), "you can not buy anymore. check your bay or credit", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "You can not buy anymore. Check your bay or credit.", Toast.LENGTH_LONG).show();
                     }
                 } else {
                         openAlert();
@@ -389,14 +389,14 @@ public class BuyGoodsActivity extends AppCompatActivity implements BuyDialog.Buy
                 player.setCredit(player.getCredit() - Integer.parseInt(inputStr) * price);
                 bay.setText(String.valueOf(player.getCargo()) + "/" + player.getSpaceship().getBay());
                 credit.setText(String.valueOf(player.getCredit()) + " Cr");
-                Toast.makeText(getApplicationContext(), "you bought " + inputStr + " " + goods, Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "You bought " + inputStr + " " + goods, Toast.LENGTH_LONG).show();
             } else if(player.getCredit() - Integer.parseInt(inputStr) * price < 0) {
-                Toast.makeText(getApplicationContext(), "you dont have enough money for that", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "You do not have enough credit.", Toast.LENGTH_LONG).show();
             } else {
-                Toast.makeText(getApplicationContext(), "you dont have enough room in your cargo", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "You do not have enough room in your cargo.", Toast.LENGTH_LONG).show();
             }
         } else {
-            Toast.makeText(getApplicationContext(), "you can not buy anymore. check your bay or credit", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "You can not buy anymore. Check your bay or credit.", Toast.LENGTH_LONG).show();
         }
     }
 
