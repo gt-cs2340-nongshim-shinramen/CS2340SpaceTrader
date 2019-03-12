@@ -169,7 +169,6 @@
 
         android:layout_marginStart="8dp"
         android:layout_marginTop="12dp"
-        android:textColor="#FFFFFF"
         android:backgroundTint="@color/yellow"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
